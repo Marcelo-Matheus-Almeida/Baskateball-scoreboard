@@ -7,6 +7,10 @@
     border: 3px dotted red;
 }
 
+body{
+    margin: 0;
+}
+
 #main{
     width: 410px;
     height: 200px;
