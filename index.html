@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <div class="container" id="container-home" style="box-shadow: 0 0 0px whitesmoke;">
+            <h1>CASA</h1>
+            <div class="score">
+                <p class="score-value" id="score-casa">0</p>
+            </div>
+            <div class="buttons">
+                <button class="add-btn" onclick="add1BtnHome()">+1</button>
+                <button class="add-btn" onclick="add2BtnHome()">+2</button>
+                <button class="add-btn" onclick="add3BtnHome()">+3</button>
+            </div>
+        </div>
+
+        <button id="new-game" onclick="newGame()">Novo jogo</button>
+
+        <div class="container" id="container-guest" style="box-shadow: 0 0 0px whitesmoke;">
+            <h1>VISITANTE</h1>
+            <div class="score">
+                <p class="score-value" id="score-visitante">0</p>
+            </div>
+            <div class="buttons">
+                <button class="add-btn" onclick="add1BtnGuest()">+1</button>
+                <button class="add-btn" onclick="add2BtnGuest()">+2</button>
+                <button class="add-btn" onclick="add3BtnGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

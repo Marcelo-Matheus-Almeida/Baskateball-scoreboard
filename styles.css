@@ -1,0 +1,83 @@
+@font-face {
+    font-family: clock;
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+.highlight{
+    border: 3px dotted red;
+}
+
+#main{
+    width: 410px;
+    height: 200px;
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    margin: 0;
+}
+
+.container{
+    width: 150px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.add-btn{
+    width: 24px;
+    height: 24px;
+    font-size: 7px;
+    background-color: #111827;
+    border: 0.5px solid snow;
+    border-radius: 2px;
+    color: whitesmoke;
+    font-family: clock, sans-serif;
+}
+
+.score{
+    background-color: #080001;
+    width: 64px;
+    height: 46px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-value{
+    font-size: 25px;
+    color: #F94F6D;
+    margin: 0;
+    font-family: clock, sans-serif;
+}
+
+#new-game{
+    background-color: #111827;
+    color: whitesmoke;
+    width: 40px;
+    height: 20px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 3px;
+    font-size: 6px;
+}
+
+.new-class{
+    background-color: red;
+}
